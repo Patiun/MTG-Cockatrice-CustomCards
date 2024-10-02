@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_carddatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="cards.xsd" version="4">
+  <sets>
+    <set>
+      <name>ACC</name>
+      <longname>Antares Custom Cards</longname>
+      <settype>Custom</settype>
+      <releasedate>2024-09-27</releasedate>
+    </set>
+  </sets>
+  <cards>
+    <card>
+      <name>Antares, Lord Commander</name>
+      <text>Ward - Discard a card or sacrifice two permanents. 
+      When Antares, Lord Commander enters, create Starblade, a Legendary Artifact Equip.ment that has "Equip 2, equiped creature has +3/+3, vigilance, trample, and flying." 
+      Whenever a star or constellation enters, put a +1/+1 counter on Antares, Lord Commander. 
+      Other knights you control get +X/+X where X is the number of equiped artifacts you control.</text>
+      <prop>
+        <layout>normal</layout>
+        <type>Legendary Creature - Star Knight</type>
+        <maintype>Creature</maintype>
+        <manacost>1UBW</manacost>
+        <cmc>4</cmc>
+        <colors>UBW</colors>
+        <coloridentity>M</coloridentity>
+        <pt>2/4</pt>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\Antares, Lord Commander.png">ACC</set>
+      <related count="1">The Starblade</related>
+      <tablerow>2</tablerow>
+    </card>
+    <card>
+      <name>The Starblade</name>
+      <text>Equipped creature has +3/+3, vigilance, trample, and flying. Equip {2}</text>
+      <prop>
+        <layout>normal</layout>
+        <type>Legendary Artifact - Equipment</type>
+        <maintype>Artifact</maintype>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\The Starblade.jpg">ACC</set>
+      <tablerow>1</tablerow>
+    </card>
+    <card>
+      <name>Marshal of the Order</name>
+      <text>Knights you control have +1/+1
+      Kicker 2 create a 2/2 BW Star Knight token with Vigilance
+      </text>
+      <prop>
+        <layout>normal</layout>
+        <type>Creature - Star Knight</type>
+        <maintype>Creature</maintype>
+        <manacost>1W</manacost>
+        <cmc>2</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <pt>2/2</pt>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\X">ACC</set>
+      <related count="1">Star Knight Token</related>
+      <tablerow>2</tablerow>
+    </card>
+    <card>
+      <name>Seneschal of the Order</name>
+      <text>Knights you control have haste and first strike
+      Kicker 2 create a 2/2 BW Star Knight token with Vigilance
+    </text>
+      <prop>
+        <layout>normal</layout>
+        <type>Creature - Star Knight</type>
+        <maintype>Creature</maintype>
+        <manacost>1U</manacost>
+        <cmc>2</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <pt>1/3</pt>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\X">ACC</set>
+      <related count="1">Star Knight Token</related>
+      <tablerow>2</tablerow>
+    </card>
+    <card>
+      <name>Artificer of the Order</name>
+      <text>Artifacts you control have ward 2
+      {2}{T} - Create your choice of:
+        Order Sword - Equip 1 Equiped Creature gains +2/0
+        Order Shield - Equip 1 Equiped Creature gains 0/+2 and Hexproof
+      {T} - Search your library for an artifact, reveal it, and put it in your hand
+  </text>
+      <prop>
+        <layout>normal</layout>
+        <type>Creature - Star Artificer</type>
+        <maintype>Creature</maintype>
+        <manacost>1B</manacost>
+        <cmc>2</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <pt>1/4</pt>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\X">ACC</set>
+      <tablerow>2</tablerow>
+    </card>
+    <card>
+      <name>Constellation of the Mind</name>
+      <text>When Constellation of the Mind enters the field, draw a card
+      Tap 2 stars - Draw a Card
+      Tap 4 stars - Counter target spell unless owner pays 1 for every constelation you control
+  </text>
+      <prop>
+        <layout>normal</layout>
+        <type>Enchantment - Constellation</type>
+        <maintype>Enchantment</maintype>
+        <manacost>1UW/B</manacost>
+        <cmc>3</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\X">ACC</set>
+      <tablerow>1</tablerow>
+    </card>
+
+    <card>
+      <name>Constellation of the Prison</name>
+      <text>When Constellation of the Prisone nters the field, tap target creature
+      Tap 3 stars - Tap target creature and put a stun counter on it
+      Tap 4 stars - exile target creature
+  </text>
+      <prop>
+        <layout>normal</layout>
+        <type>Enchantment - Constellation</type>
+        <maintype>Enchantment</maintype>
+        <manacost>1BW/U</manacost>
+        <cmc>3</cmc>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\X">ACC</set>
+      <tablerow>1</tablerow>
+    </card>
+    <card>
+      <name>Constellation of the Gate</name>
+      <text>When Constellation of the Gate enters the field search your library for a star or constelation card and put it in your hand
+      Tap X stars - you may play a card from your hand with cmc X or less, all stars that tapped in this way each gain a counter of your choice of lifelink, flying, or deathtouch
+  </text>
+      <prop>
+        <layout>normal</layout>
+        <type>Enchantment - Constellation</type>
+        <maintype>Enchantment</maintype>
+        <manacost>1WB/U</manacost>
+        <cmc>3</cmc>
+        <colors>W</colors>
+        <coloridentity>W</coloridentity>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\X">ACC</set>
+      <tablerow>1</tablerow>
+    </card>
+    <card>
+      <name>Rally the Order</name>
+      <text>
+      Ascend (At the end of your upkeep, if you control 10 or more permanents you gaine the Blessing of the Stars)
+      At the begining of your upkeep creata a 2/2 BW Star Knight Token with Vigilance
+      If you have the Blessing of the Stars, whenever a knight enters the field, deal 2 damage to any target
+      </text>
+      <prop>
+        <layout>normal</layout>
+        <type>Enchantment</type>
+        <maintype>Enchantment</maintype>
+        <manacost>2WB</manacost>
+        <cmc>4</cmc>
+        <colors>WB</colors>
+        <coloridentity>WB</coloridentity>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\X">ACC</set>
+      <related count="1">Star Knight Token</related>
+      <related count="1">Blessing of the Stars</related>
+      <tablerow>1</tablerow>
+    </card>
+    <card>
+      <name>Starfall</name>
+      <text>
+      Target X creatures, destroy all creatures except the targeted creatures.
+      </text>
+      <prop>
+        <layout>normal</layout>
+        <type>Instant</type>
+        <maintype>Instant</maintype>
+        <manacost>XXWBU</manacost>
+        <cmc>3</cmc>
+        <colors>WBU</colors>
+        <coloridentity>WBU</coloridentity>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\X">ACC</set>
+      <tablerow>3</tablerow>
+    </card>
+    <card>
+      <name>Counter Cut</name>
+      <text>
+      Counter target spell, deal damage to a target creature equal to the number of swords you control
+      </text>
+      <prop>
+        <layout>normal</layout>
+        <type>Instant</type>
+        <maintype>Instant</maintype>
+        <manacost>2U</manacost>
+        <cmc>3</cmc>
+        <colors>U</colors>
+        <coloridentity>U</coloridentity>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\X">ACC</set>
+      <tablerow>3</tablerow>
+    </card>
+    <card>
+      <name>Hall of the Order</name>
+      <text>Tap W/B
+      1WB - Create a 2/2 Star Knight BW with Vigilance
+      </text>
+      <prop>
+        <layout>normal</layout>
+        <type>Land</type>
+        <maintype>Land</maintype>
+        <colors>WB</colors>
+        <coloridentity>WB</coloridentity>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+        <related count="1">Star Knight Token</related>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\X">ACC</set>
+      <tablerow>0</tablerow>
+    </card>
+    <card>
+      <name>Reality Rift</name>
+      <text>Tap U/W
+      Tap XUW - Return target permanent with mana value X or less to its owners hand
+      </text>
+      <prop>
+        <layout>normal</layout>
+        <type>Land</type>
+        <maintype>Land</maintype>
+        <colors>WU</colors>
+        <coloridentity>WU</coloridentity>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\X">ACC</set>
+      <tablerow>0</tablerow>
+    </card>
+    <card>
+      <name>Edge of Space</name>
+      <text>Tap U/B
+      Tap 5UB - Put a stun counter on Edge of Space, Sacrifice any number of permanents, create a
+        colorless X/X Cosmic Horror from the Edge of Space token where X is the power of the sacrificed
+        permanents that has haste, trample, protection from instants, and "Whenever this creature deals
+        combat damage to a player, that player sacrifices that many permanents" exile Cosmic Horror from
+        the Edge of Space at your end step.
+      </text>
+      <prop>
+        <layout>normal</layout>
+        <type>Land</type>
+        <maintype>Land</maintype>
+        <colors>BU</colors>
+        <coloridentity>BU</coloridentity>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\X">ACC</set>
+      <tablerow>0</tablerow>
+    </card>
+    <card>
+      <name>Cosmic Horror from the Edge of Space</name>
+      <text>haste, trample
+      protection from instants
+      Whenever this creature deals combat damage to a player, that player sacrifices that many permanents</text>
+      <prop>
+        <layout>normal</layout>
+        <type>Creature - Cosmic Horror</type>
+        <maintype>Creature</maintype>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+        <pt>X/X</pt>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\The Starblade.jpg">ACC</set>
+      <reverse-related>Edge of Space</reverse-related>
+      <tablerow>2</tablerow>
+    </card>
+    <card>
+      <name>Star Knight Token</name>
+      <text>Vigilance</text>
+      <prop>
+        <layout>normal</layout>
+        <type>Creature Token - Star Knight</type>
+        <maintype>Creature</maintype>
+        <colors>BW</colors>
+        <coloridentity>BW</coloridentity>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+        <pt>2/2</pt>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\The Starblade.jpg">ACC</set>
+      <token>1</token>
+      <tablerow>2</tablerow>
+    </card>
+
+    <card>
+      <name>Order Sword</name>
+      <text>Equipped Creature Gains +2/+0
+      Equip {1}
+      </text>
+      <prop>
+        <layout>normal</layout>
+        <type>Artifact - Equipment</type>
+        <maintype>Artifact</maintype>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\The Starblade.jpg">ACC</set>
+      <reverse-related>Artificer of the Order</reverse-related>
+      <token>1</token>
+      <tablerow>1</tablerow>
+    </card>
+    <card>
+      <name>Order Shield</name>
+      <text>Equiped Creature gains 0/+1 and Hexproof
+      Equip {1}
+      </text>
+      <prop>
+        <layout>normal</layout>
+        <type>Artifact - Equipment</type>
+        <maintype>Artifact</maintype>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\The Starblade.jpg">ACC</set>
+      <reverse-related>Artificer of the Order</reverse-related>
+      <token>1</token>
+      <tablerow>1</tablerow>
+    </card>
+    <card>
+      <name>Blessing of the Stars</name>
+      <text>
+      </text>
+      <prop>
+        <layout>normal</layout>
+        <type>State</type>
+        <maintype>State</maintype>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\The Starblade.jpg">ACC</set>
+      <token>1</token>
+      <tablerow>1</tablerow>
+    </card>
+    <card>
+      <name>Sage, Apothecary Witch</name>
+      <text>Ward 2
+        2 - Create Potion (Food) Token
+        Whenever a token enters the field under your control put a +1/+1 token on target creature.
+        Creatures with 2 or more +1/+1 tokens have ward 2</text>
+      <prop>
+        <layout>normal</layout>
+        <type>Legendary Creature - Elf Demon Warlock</type>
+        <maintype>Creature</maintype>
+        <manacost>2GR</manacost>
+        <cmc>4</cmc>
+        <colors>GR</colors>
+        <coloridentity>M</coloridentity>
+        <pt>2/5</pt>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\X">ACC</set>
+      <related count="1">Potion Token</related>
+      <tablerow>2</tablerow>
+    </card>
+    <card>
+      <name>Myconid Shepard and Call the Assistants</name>
+      <text>
+        Create 2 1/1 Green Fungus Plant Mushroom tokens
+
+        ---
+
+        Ascend (If you control 10 or more permanents you gain the Forest's Blessing)
+        At the beginning of each upkeep, create a 1/1 Green Fungus Plant Mushroom token
+        Mushrooms you control get +2/+2 as long as you have the Forest's Blessing</text>
+      <prop>
+        <layout>adventure</layout>
+        <type>Sorcery - Adventure // Creature - Plant Fungus Druid</type>
+        <maintype>Creature</maintype>
+        <manacost>1G // 4G</manacost>
+        <cmc>5</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
+        <pt>2/2</pt>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\Myconid Shepard and Call the Assistants.png">ACC</set>
+      <related count="2">Mushroom Token</related>
+      <related count="1">Forsest's Blessing</related>
+      <tablerow>2</tablerow>
+    </card>
+    <card>
+      <name>Cinder Spirit</name>
+      <text>
+      Offspring (2)
+      Haste
+      When Cinder Spirit dies, it deals damage equal to its power to any target.</text>
+      <prop>
+        <layout>normal</layout>
+        <type>Creature - Elemental</type>
+        <maintype>Creature</maintype>
+        <manacost>R</manacost>
+        <cmc>1</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>1/1</pt>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\X">ACC</set>
+      <related count="2">Cinder Spirit Offspring Token</related>
+      <tablerow>2</tablerow>
+    </card>
+    <card>
+      <name>Cinder Spirit Offspring Token</name>
+      <text>
+      Haste
+      When Cinder Spirit dies, it deals damage equal to its power to any target.</text>
+      <prop>
+        <layout>normal</layout>
+        <type>Creature Token - Elemental</type>
+        <maintype>Creature</maintype>
+        <manacost>R</manacost>
+        <cmc>1</cmc>
+        <colors>R</colors>
+        <coloridentity>R</coloridentity>
+        <pt>1/1</pt>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\X">ACC</set>
+      <token>1</token>
+      <tablerow>2</tablerow>
+    </card>
+    <card>
+      <name>Volatile Gnome</name>
+      <text>Tap 1 - Sacrifice a Potion you control, deal 2 damage to any target. If the Potion sacrificed was an enchantment you may deal 2 damage to an additional target.</text>
+      <prop>
+        <layout>normal</layout>
+        <type>Creature - Gnome Alchemist</type>
+        <maintype>Creature</maintype>
+        <manacost>GR</manacost>
+        <cmc>2</cmc>
+        <colors>GR</colors>
+        <coloridentity>GR</coloridentity>
+        <pt>1/3</pt>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\X">ACC</set>
+      <tablerow>2</tablerow>
+    </card>
+    <card>
+      <name>Apothecary Dagger</name>
+      <text>Equipped creature gains +1/+0, lifelink, and "When this creature deals combat damage to a player, create a Potion Token"
+      Equip 2
+      </text>
+      <prop>
+        <layout>normal</layout>
+        <type>Artifact - Equipment</type>
+        <maintype>Artifact</maintype>
+        <manacost>2</manacost>
+        <cmc>2</cmc>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\X">ACC</set>
+      <related count="1">Potion Token</related>
+      <tablerow>1</tablerow>
+    </card>
+    <card>
+      <name>Summon Familiar</name>
+      <text>Create a 1/1 Black Raven "Basil" token with Flying, Forestwalk, and "Whenever this creature deals combat damage to a player, create a Treasure token"
+      </text>
+      <prop>
+        <layout>normal</layout>
+        <type>Instant</type>
+        <maintype>Instant</maintype>
+        <manacost>2G</manacost>
+        <cmc>3</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\X">ACC</set>
+      <related count="1">Basil</related>
+      <tablerow>3</tablerow>
+    </card>
+    <card>
+      <name>Apothecary Talent</name>
+      <text>(Gain the next level as a socery to add its ability.)
+        You may cast Enchantment spells as if they had Flash.
+        {1}{G} - Whenever you sacrifice a Potion, deal 1 damage to any target
+        {2}{G}{R} - Whenever a creature you control enters the field, create a Potion (Food) Token. During your turn, creatures you control have Hexproof and Trample.
+      </text>
+      <prop>
+        <layout>class</layout>
+        <type>Enchantment - Class</type>
+        <maintype>Enchantment</maintype>
+        <manacost>1G</manacost>
+        <cmc>2</cmc>
+        <colors>GR</colors>
+        <coloridentity>G</coloridentity>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\X">ACC</set>
+      <related count="1">Potion Token</related>
+      <tablerow>1</tablerow>
+    </card>
+    <card>
+      <name>Tend the Forests</name>
+      <text>Enchant Land
+        Enchanted land becomes a Forest in addition to its other types
+        When Tend the Forests enters, you gain 3 life.
+      </text>
+      <prop>
+        <layout>normal</layout>
+        <type>Enchantment - Aura</type>
+        <maintype>Enchantment</maintype>
+        <manacost>2G</manacost>
+        <cmc>3</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\X">ACC</set>
+      <tablerow>1</tablerow>
+    </card>
+
+    <card>
+      <name>Potion of Diminuation</name>
+      <text>Enchant Creature
+        Enchanted Creature gets -2/-2 and loses Trample and Reach
+      </text>
+      <prop>
+        <layout>normal</layout>
+        <type>Enchantment - Potion Aura</type>
+        <maintype>Enchantment</maintype>
+        <manacost>1G</manacost>
+        <cmc>2</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\X">ACC</set>
+      <tablerow>1</tablerow>
+    </card>
+    <card>
+      <name>Potion of Woodland Naps</name>
+      <text>Enchant Creature
+        Tap enchanted creature, if you are the controller of the creature, enchanted created gets +2/+2. Otherwise, put 3 stun counters on enchanted creature.
+      </text>
+      <prop>
+        <layout>normal</layout>
+        <type>Enchantment - Potion Aura</type>
+        <maintype>Enchantment</maintype>
+        <manacost>3G</manacost>
+        <cmc>4</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\X">ACC</set>
+      <tablerow>1</tablerow>
+    </card>
+    <card>
+      <name>Potion of Growth</name>
+      <text>Enchant Creature
+        Enchanted Creature gets +3/+3 and gains Trample and Reach
+      </text>
+      <prop>
+        <layout>normal</layout>
+        <type>Enchantment - Potion Aura</type>
+        <maintype>Enchantment</maintype>
+        <manacost>2G</manacost>
+        <cmc>3</cmc>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\X">ACC</set>
+      <tablerow>1</tablerow>
+    </card>
+    <card>
+      <name>Apothecary Shop</name>
+      <text>{T} - Add {G}
+        {2}{G}{T} - Create a Potion Token
+      </text>
+      <prop>
+        <layout>land</layout>
+        <type>Land</type>
+        <maintype>Land</maintype>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\X">ACC</set>
+      <related count="1">Potion Token</related>
+      <tablerow>0</tablerow>
+    </card>
+    <card>
+      <name>Mushroom Forest</name>
+      <text>{T} - Add {G}
+        {2}{G}{T} - Create a 1/1 Green Plant Fungus Mushroom Token
+      </text>
+      <prop>
+        <layout>land</layout>
+        <type>Land - Forest</type>
+        <maintype>Land</maintype>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\X">ACC</set>
+      <related count="1">Mushroom Token</related>
+      <tablerow>0</tablerow>
+    </card>
+    <card>
+      <name>Mystic Wilds</name>
+      <text>{T} - Add {G} or {R}
+        {3}{G}{R} - Until end of Turn Mystic Wilds becomes a 5/4 Green Red Elemental creature with Trample and Reach. It is still a land.
+      </text>
+      <prop>
+        <layout>transform</layout>
+        <side>front</side>
+        <type>Land - Mountain Forest</type>
+        <maintype>Land</maintype>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\X">ACC</set>
+      <related>Mystic Wilds Unleashed</related>
+      <tablerow>0</tablerow>
+    </card>
+    <card>
+      <name>Basil</name>
+      <text>Flying, Forestwalk
+      Whenever this creature deals combat damage to a player, create a Treasure token</text>
+      <prop>
+        <layout>normal</layout>
+        <type>Creature Token - Bird Familiar</type>
+        <maintype>Creature</maintype>
+        <colors>B</colors>
+        <coloridentity>B</coloridentity>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+        <pt>1/1</pt>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\The Starblade.jpg">ACC</set>
+      <token>1</token>
+      <tablerow>2</tablerow>
+    </card>
+    <card>
+      <name>Mushroom Token</name>
+      <text></text>
+      <prop>
+        <layout>normal</layout>
+        <type>Creature Token - Fungus Plant</type>
+        <maintype>Creature</maintype>
+        <colors>G</colors>
+        <coloridentity>G</coloridentity>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+        <pt>1/1</pt>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\The Starblade.jpg">ACC</set>
+      <token>1</token>
+      <tablerow>2</tablerow>
+    </card>
+    <card>
+      <name>Potion Token</name>
+      <text>{2}, {T}, Sacrifice this artifact: You gain 3 life.</text>
+      <prop>
+        <layout>normal</layout>
+        <type>Artifact Token - Potion Food</type>
+        <maintype>Artiifact</maintype>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\The Starblade.jpg">ACC</set>
+      <token>1</token>
+      <tablerow>2</tablerow>
+    </card>
+    <card>
+      <name>Mystic Wilds Unleashed</name>
+      <text>{T} - Add {G} or {R}</text>
+      <prop>
+        <layout>transform</layout>
+        <side>back</side>
+        <type>Land Creature Token - Elemental</type>
+        <maintype>Creature</maintype>
+        <colors>GR</colors>
+        <coloridentity>GR</coloridentity>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+        <pt>5/4</pt>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\The Starblade.jpg">ACC</set>
+      <related>Mystic Wilds</related>
+      <token>1</token>
+      <tablerow>2</tablerow>
+    </card>
+    <card>
+      <name>Forest's Blessing</name>
+      <text></text>
+      <prop>
+        <layout>normal</layout>
+        <type>State</type>
+        <maintype>State</maintype>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\X">ACC</set>
+      <token>1</token>
+      <tablerow>1</tablerow>
+    </card>
+    <card>
+      <name>Kashi, Anxious Companion</name>
+      <text>Companion - A legendary creature card named Antares or Sage is in your deck (If this card is your chosen companion, you may put it into your hand from outside the game for {3} any time you could cast a sorcery.)
+        Haste
+        At the beginning of each combat, flip a coin. 
+        Heads: Kashi gains Menace until the end of combat
+        Tails: At the end of combat Kashi returns to it’s owners hand</text>
+      <prop>
+        <layout>transform</layout>
+        <side>back</side>
+        <type>Land Creature Token - Elemental</type>
+        <maintype>Creature</maintype>
+        <manacost>1R/W</manacost>
+        <cmc>2</cmc>
+        <colors>RW</colors>
+        <coloridentity>RW</coloridentity>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+        <pt>2/1</pt>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\X">ACC</set>
+      <tablerow>2</tablerow>
+    </card>
+    <card>
+      <name>Taric, Aspect of Protection</name>
+      <text>Lifelink, Vigilance
+        Eminence: {1}{u}{w} Conjure a "Bastion of the Protector" enchantment, you may activate this ability while Taric is on the field or in the command zone.
+        Whenever you cast a Sorcery or Enchantment spell, Taric gains +1/+0 until end of turn. If this spell targets only Taric, you may copy it for and target each Resplendent creature.
+        {3}{u}{u}{w}{w} All creatures you control gain indestructable until the next end step.</text>
+      <prop>
+        <layout>normal</layout>
+        <type>Legendary Creature - Human Aspect</type>
+        <maintype>Creature</maintype>
+        <manacost>2WWU</manacost>
+        <cmc>5</cmc>
+        <colors>UW</colors>
+        <coloridentity>UW</coloridentity>
+        <pt>1/4</pt>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\Antares, Lord Commander.png">ACC</set>
+      <related count="1">Bastion of Protection</related>
+      <tablerow>2</tablerow>
+    </card>
+    <card>
+      <name>Bastion of Protection</name>
+      <text>Enchant Creature
+        Enchanted creature has +0/+2 and is Resplendent
+        When the enchanted creature attacks, tap target creature an opponent controls</text>
+      <prop>
+        <layout>normal</layout>
+        <type>Legendary Enchantment - Aura</type>
+        <maintype>Enchantment</maintype>
+        <colors>UW</colors>
+        <coloridentity>UW</coloridentity>
+        <format-standard>legal</format-standard>
+        <format-commander>legal</format-commander>
+        <format-modern>legal</format-modern>
+        <format-pauper>legal</format-pauper>
+      </prop>
+      <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+        picurl="D:\MTGCockatrice\data\pics\CUSTOM\The Starblade.jpg">ACC</set>
+      <related>Taric, Aspect of Protection</related>
+      <token>1</token>
+      <tablerow>2</tablerow>
+    </card>
+  </cards>
+</cockatrice_carddatabase>

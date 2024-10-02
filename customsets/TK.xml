@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_carddatabase version="4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://raw.githubusercontent.com/Cockatrice/Cockatrice/master/doc/carddatabase_v4/cards.xsd">
+    <info>
+        <author>Cockatrice 2.9.0 (2023-09-14)</author>
+        <createdAt>2024-09-27T17:23:53Z</createdAt>
+        <sourceUrl>unknown</sourceUrl>
+        <sourceVersion>unknown</sourceVersion>
+    </info>
+    <sets>
+        <set>
+            <name>TK</name>
+            <longname>Dummy set containing tokens</longname>
+            <settype>Tokens</settype>
+            <releasedate></releasedate>
+        </set>
+    </sets>
+    <cards>
+
+        <card>
+            <name>Command Zone</name>
+            <text>This is where your commander resides during the game when they are not in play.
+
+                At the start of the game, each player puts their commander face up into the command
+                zone.
+
+                A commander can be cast from the command zone for its normal costs, plus an
+                additional two mana for each previous time it's been cast from the command zone this
+                game.
+
+                If your commander would be put into your library, hand, graveyard or exile from
+                anywhere, you may return it to your command zone instead.</text>
+            <prop>
+                <layout>token</layout>
+                <type>Token</type>
+                <maintype>Token</maintype>
+                <format-standard>legal</format-standard>
+                <format-commander>legal</format-commander>
+                <format-modern>legal</format-modern>
+                <format-pauper>legal</format-pauper>
+            </prop>
+            <set rarity="common" uuid="12345678-abcd-1234-abcd-1234567890ab" num="42" muid="123456"
+                picurl="D:\MTGCockatrice\data\pics\CUSTOM\The Starblade.jpg">ACC</set>
+            <token>1</token>
+            <tablerow>2</tablerow>
+        </card>
+    </cards>
+</cockatrice_carddatabase>
